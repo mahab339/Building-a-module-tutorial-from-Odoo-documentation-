@@ -1,0 +1,13 @@
+[2020-09-27 23:33:27.404] [renderer1] [error] Failed to create a temporary file, Unable to resolve non-existing file '/usr/lib/python3.7/site-packages/odoo/addons/openacademy/wizard.py.3bb36a0d8c37d66e1ce13fa167d6da6e.tmp': Error: 
+	at new i (/root/.vscode/extensions/ms-python.python-2020.9.111407/out/client/extension.js:1:469044)
+	at Object.t.getTempFileWithDocumentContents (/root/.vscode/extensions/ms-python.python-2020.9.111407/out/client/extension.js:1:523049)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+
+EntryNotFound (FileSystemError): Unable to resolve non-existing file '/usr/lib/python3.7/site-packages/odoo/addons/openacademy/wizard.py.3bb36a0d8c37d66e1ce13fa167d6da6e.tmp'
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:672:249)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+	at async y.writeText (/root/.vscode/extensions/ms-python.python-2020.9.111407/out/client/extension.js:1:498723)
+	at async Object.t.getTempFileWithDocumentContents (/root/.vscode/extensions/ms-python.python-2020.9.111407/out/client/extension.js:1:522949)
+	at async l.provideDocumentFormattingEdits (/root/.vscode/extensions/ms-python.python-2020.9.111407/out/client/extension.js:1:568472)

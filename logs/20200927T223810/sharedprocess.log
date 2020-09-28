@@ -1,0 +1,3 @@
+[2020-09-27 22:38:14.209] [sharedprocess] [info] main {"machineId":"8b294878ceaa65a1ef8fff906ec54756f043eeb7270b51d744e831c53818ba11","windowId":2}
+[2020-09-27 22:38:14.305] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/usr/lib/python3.7/site-packages/odoo/addons/openacademy/User/snippets'
+[2020-09-27 22:38:54.252] [sharedprocess] [info] Starting to clean up unused language packs.
