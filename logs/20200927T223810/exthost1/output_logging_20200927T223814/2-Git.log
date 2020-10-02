@@ -14,3 +14,81 @@ Use '--' to separate paths from revisions, like this:
 > git show --textconv :views/openacademy.xml
 > git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/views/openacademy.xml
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/views/openacademy.xml
+> git symbolic-ref --short HEAD
+> git cat-file -s 5bb4b02f4b2ae328628f0ed63e45166320a9b550
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :views/openacademy.xml
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Reader_for_error.py
+> git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/Reader_for_error.py
+> git cat-file -s 9e59c7f13d4af3eb27edfd3784745db80c83ca18
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :views/openacademy.xml
+> git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/views/openacademy.xml
+> git cat-file -s 5bb4b02f4b2ae328628f0ed63e45166320a9b550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :models/models.py
+> git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/models/models.py
+> git cat-file -s 2494bac81b4f892076134b2f9bb79d0c943759ae
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

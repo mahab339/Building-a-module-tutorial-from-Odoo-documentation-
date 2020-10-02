@@ -1,0 +1,24 @@
+Looking for git in: git
+Using git 2.25.4 from git
+> git rev-parse --git-dir
+Open repository: /usr/lib/python3.7/site-packages/odoo/addons/openacademy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/models.py
+> git ls-files --stage -- /usr/lib/python3.7/site-packages/odoo/addons/openacademy/models/models.py
+> git check-ignore -v -z --stdin
+> git cat-file -s 2494bac81b4f892076134b2f9bb79d0c943759ae

@@ -1,0 +1,96 @@
+User belongs to experiment group 'AlwaysDisplayTestExplorer - control'
+User belongs to experiment group 'ShowPlayIcon - start'
+User belongs to experiment group 'DebugAdapterFactory - experiment'
+User belongs to experiment group 'PtvsdWheels37 - experiment'
+User belongs to experiment group 'UseTerminalToGetActivatedEnvVars - control'
+User belongs to experiment group 'LocalZMQKernel - experiment'
+User belongs to experiment group 'CollectLSRequestTiming - experiment'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+User belongs to experiment group 'EnableIPyWidgets - experiment'
+User belongs to experiment group 'RunByLine - experiment'
+User belongs to experiment group 'CustomEditorSupport - control'
+User belongs to experiment group 'pythonaa'
+> conda --version
+> pyenv root
+> python3.7 ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda info --json
+> python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> pyenv root
+Error 2020-10-02 14:40:58: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/root/.config/Code/User/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/root/.config/Code/User/settings.json')
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:672:249)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+	at async y.readText (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:1:498547)
+	at async p.doesFileNeedToBeFixed (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:961593)
+	at async /root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960720
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960666)
+	at async p.updateTestSettings (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960293)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+Error 2020-10-02 14:40:58: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/usr/lib/python3.7/site-packages/odoo/addons/openacademy/.vscode/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/usr/lib/python3.7/site-packages/odoo/addons/openacademy/.vscode/settings.json')
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:672:249)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+	at async y.readText (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:1:498547)
+	at async p.doesFileNeedToBeFixed (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:961593)
+	at async /root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960720
+	at async Promise.all (index 1)
+	at async p.getFilesToBeFixed (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960666)
+	at async p.updateTestSettings (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:56:960293)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+Starting Jedi Python language engine.
+Python interpreter path: /usr/bin/python
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py jupyter kernelspec --version
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py jupyter kernelspec --version
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/vscode_datascience_helpers/getJupyterKernelspecVersion.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/vscode_datascience_helpers/getJupyterKernelspecVersion.py
+Error 2020-10-02 14:40:58: Failed to get a list of the kernelspec using python script [r [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/vscode_datascience_helpers/getJupyterKernelspecVersion.py", line 3, in <module>
+    import jupyter_client
+ModuleNotFoundError: No module named 'jupyter_client'
+
+	at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:9:53541)
+	at Object.onceWrapper (events.js:291:20)
+	at ChildProcess.emit (events.js:203:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)]
+Error 2020-10-02 14:40:58: Exception attempting to enumerate kernelspecs:  [r [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py", line 26, in <module>
+    runpy.run_module(module, run_name="__main__", alter_sys=True)
+  File "/usr/lib64/python3.7/runpy.py", line 201, in run_module
+    mod_name, mod_spec, code = _get_module_details(mod_name)
+  File "/usr/lib64/python3.7/runpy.py", line 136, in _get_module_details
+    raise error("No module named %s" % mod_name)
+ImportError: No module named jupyter
+
+	at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:9:53541)
+	at Object.onceWrapper (events.js:291:20)
+	at ChildProcess.emit (events.js:203:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)]
+Error 2020-10-02 14:40:58: Kernel spec not found:  [r [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-python.python-2020.9.112786/pythonFiles/pyvsc-run-isolated.py", line 26, in <module>
+    runpy.run_module(module, run_name="__main__", alter_sys=True)
+  File "/usr/lib64/python3.7/runpy.py", line 201, in run_module
+    mod_name, mod_spec, code = _get_module_details(mod_name)
+  File "/usr/lib64/python3.7/runpy.py", line 136, in _get_module_details
+    raise error("No module named %s" % mod_name)
+ImportError: No module named jupyter
+
+	at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-python.python-2020.9.112786/out/client/extension.js:9:53541)
+	at Object.onceWrapper (events.js:291:20)
+	at ChildProcess.emit (events.js:203:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)]
